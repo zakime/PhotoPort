@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "echo 'INICIO BUILD' && tsc -b && vite build && echo 'FIM BUILD'",
     "preview": "vite preview"
   },
   "dependencies": {
