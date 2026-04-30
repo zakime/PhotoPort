@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "echo 'INICIO BUILD' && npx vite build && echo 'FIM BUILD'",
-    "postinstall": "echo vite instalado",
+    "postinstall": "chmod -R +x node_modules/.bin || true",
     "preview": "vite preview"
   },
   "dependencies": {
