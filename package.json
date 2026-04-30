@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "echo 'INICIO BUILD' && npx vite build && echo 'FIM BUILD'",
+    "build": "vite build",
     "postinstall": "chmod -R +x node_modules/.bin || true",
     "preview": "vite preview"
   },
